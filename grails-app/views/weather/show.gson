@@ -1,0 +1,7 @@
+import mock.service.sample.Weather
+
+model {
+	Weather weather
+}
+
+json tmpl.weather(weather)
